@@ -1,0 +1,22 @@
+<?type.xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>UsenetDocument</name>
+  <description>Copyright</description>
+  <version>1.0</version>
+  <vendor>Copyright</vendor>
+  <types>
+    <typeDescription>
+      <!--<name>org.cleartk.examples.ttypes.TradeshiftBlocklock</name>-->
+      <name>type.TradeshiftBlock</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>category</name>
+          <description>The category label for a type.TradeshiftBlock</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+     </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
